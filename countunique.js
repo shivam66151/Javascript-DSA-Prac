@@ -5,7 +5,7 @@
 // Output => 8
 
 function countUnique(arr) {
-    if(arr.length>0) {
+    if(arr.length > 0) {
         let i = 0;
         for(let j = 1; j < arr.length; j++) {
             if(arr[i]!==arr[j])  {
@@ -14,7 +14,7 @@ function countUnique(arr) {
             }
         } return i + 1
     } else {
-        throw new Error(" Array is empty");
+        throw new Error("Array is empty");
     }
 
 }
@@ -24,6 +24,7 @@ console.log(result)
 
 
 // O(n)  linear time complexity
+
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 // Second Method
