@@ -1,21 +1,21 @@
 //Bubble sort using recursion technique
 // Input -> [5,3,8,4,6]
 
-// Start by comparing the first two elements in an array
-// swap them if required
-// Continue till the end of the array.At this point,you have made a series of
-// inner passes and completed an outer pass.
-// Repeat the process until the entire array is sorted
+// 1.Start by comparing the first two elements in an array
+// 2.swap them if required
+// 3.Continue till the end of the array.At this point,you have made a series of
+//   inner passes and completed an outer pass.
+// 4.Repeat the process until the entire array is sorted
 
 
 function bubbleSort(arr) {
 
     //Outer Pass
     for(let i = 0; i < arr.length; i++) {
-
+        //console.log("Outer loop")
         //Inner Pass
         for(let j = 0; j < arr.length - i - 1;j++) {
-
+           //console.log("Inner Loop")
             //Value Comparison using ascending order
             if(arr[j + 1] < arr[j]) {
 
