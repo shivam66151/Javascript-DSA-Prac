@@ -34,6 +34,5 @@ console.log(insertionSort([23,1,10,5,2]))
 
 // Performance Cases
 // Worst-case time complexity -> O(n^2)
-// Average-case time complexity -> theta(n^2)
-// Best-case time complexity -> omega(n)
+
 // Space complexity -> O(1)

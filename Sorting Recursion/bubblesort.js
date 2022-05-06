@@ -37,6 +37,5 @@ console.log(bubbleSort([5,3,8,4,6]))
 // Performance Cases
 
 // Worst-case time complexity -> O(n^2)
-// Average-case time complexity -> theta(n^2)
-// Best-case time complexity -> omega(n)
+
 // Space complexity -> O(1)
