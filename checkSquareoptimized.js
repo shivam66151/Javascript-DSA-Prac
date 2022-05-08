@@ -11,16 +11,17 @@ function checkSquare(array1,array2) {
     let map1={}
     let map2={}
 
-    for(item of array1) {
+    for(item of array1) { // n times
       map1[item] = (map1[item] || 0) + 1
-      console.log("Map1",map1)
     }
-    for(item1 of array2) {
-        map2[item] = (map2[item] || 0) + 1
-        console.log("Map2",map2)
-      }
+    console.log(map1)
 
-      for(let key in map1) {
+    for(item1 of array2) {  // n times
+        map2[item1] = (map2[item1] || 0) + 1
+    }
+    console.log(map2)
+
+      for(let key in map1) { //n times
           console.log("Key",key)
           if(!map2[key * key]) {    //object key compare in term of square
               return false
@@ -34,3 +35,6 @@ function checkSquare(array1,array2) {
 
 const res = checkSquare([1,2,4,2],[1,4,4,16])
 console.log(res)
+
+
+// Time complexity ->Linear o(n)
