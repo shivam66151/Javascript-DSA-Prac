@@ -12,9 +12,25 @@ function checkSquare(array1,array2) {
     let map2={}
 
     for(item of array1) {
+      map1[item] = (map1[item] || 0) + 1
+      console.log("Map1",map1)
+    }
+    for(item1 of array2) {
+        map2[item] = (map2[item] || 0) + 1
+        console.log("Map2",map2)
+      }
 
-    }
-    for(item2 of array2) {
-        
-    }
-}
+      for(let key in map1) {
+          console.log("Key",key)
+          if(!map2[key * key]) {    //object key compare in term of square
+              return false
+          }
+          if(map1[key] !== map2[key * key]) {
+              return false
+          }
+      }
+      return true
+} 
+
+const res = checkSquare([1,2,4,2],[1,4,4,16])
+console.log(res)
