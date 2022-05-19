@@ -34,3 +34,6 @@ function selectionsort(arr) {
 }
 
 console.log(selectionsort([29, 72, 98, 13, 87, 66, 52, 51, 36]));
+
+// Time Complexity => O(n ^ 2)
+// Space COmplexity => O(1)
