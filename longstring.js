@@ -1,4 +1,4 @@
-// Longest STring without repeating characters
+// Longest String without repeating characters
 
 // Input: s = "abcabcbb"
 // Output: 3
