@@ -13,7 +13,7 @@ function isAnagram(string1,string2) {
     let counter ={}
     for(let letter of string1) {
         counter[letter] = (counter[letter] || 0) + 1;
-        console.log(counter[letter])
+        console.log("str1",counter[letter])
     }
     
     for(let items of string2) {
