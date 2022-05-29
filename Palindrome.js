@@ -10,16 +10,14 @@
 //         alphanumericOnly.reverse().join('');
 // }
 
-
-
 // palindrome("eye");
 
 
 //Find whether a string contains a contiguous palindromic substring in O(n) time. Can you solve the problem in O(1) time?
 
 
-function checkPalindrom(str) {
+function checkPalindrome(str) {
     return str == str.split('').reverse().join('');
 }
 
-console.log(checkPalindrom("eye"))
+console.log(checkPalindrome("bye"))

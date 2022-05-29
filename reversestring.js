@@ -7,8 +7,7 @@ function reversestring(str) {
 
 console.log(reversestring("Hello"))
 
-// USing Loop
-
+// Using Loop
 
 function reverse(str){
     var rtnStr = '';
@@ -18,5 +17,5 @@ function reverse(str){
     return rtnStr;
   }
 
-  console.log(reverse("Hello World"))
+  console.log(reverse("Shivam Sharma Learning"))
   
