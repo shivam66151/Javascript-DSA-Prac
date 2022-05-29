@@ -13,6 +13,6 @@ function sumAll(arr) {
     return sumBetween
 }
 
-console.log(sumAll([4,1]))
+console.log(sumAll([8,1]))
 
 //sumAll([4,1]) should return 10 because sum of all the numbers between 1 and 4 (both inclusive) is 10
